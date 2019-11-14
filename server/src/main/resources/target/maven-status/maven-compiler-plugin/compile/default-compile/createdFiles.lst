@@ -1,0 +1,5 @@
+com/beer/wiki/server/BeerController.class
+com/beer/wiki/server/BeerCommandLineRunner.class
+com/beer/wiki/server/Beer.class
+com/beer/wiki/server/ServerApplication.class
+com/beer/wiki/server/BeerRepository.class

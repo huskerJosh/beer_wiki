@@ -1,6 +1,8 @@
 package com.beer.wiki.server;
 
 
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -33,6 +35,10 @@ public class Beer {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    interface BeerRepository extends JpaRepository<Beer, Long> {
+
     }
 
     @Override
